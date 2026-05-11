@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planes y Precios – CONTEC</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style_planes.css">
+</head>
+
+<body>
+  <!-- NAV -->
+  <nav id="main-nav">
+    <div class="nav-logo"><img src="Contec_logo.jpg" alt="CONTEC"></div>
+    <ul class="nav-links">
+      <li><a href="contec3.html#servicios">Servicios</a></li>
+      <li><a href="contec3.html#tecnologia">Tecnología</a></li>
+      <li><a href="planes_contec.html" class="active">Planes</a></li>
+      <li><a href="contec3.html#contacto">Contacto</a></li>
+      <li><a href="contec3.html#contacto" class="nav-cta">Cotizar</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="contec3.html#servicios" class="mob-link">Servicios</a>
+    <a href="contec3.html#tecnologia" class="mob-link">Tecnología</a>
+    <a href="planes_contec.html" class="mob-link" style="color:var(--accent)">Planes</a>
+    <a href="contec3.html#contacto" class="mob-link">Contacto</a>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-grid"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="page-hero-content">
+      <div class="page-hero-badge">Propuesta Comercial</div>
+      <h1>Planes y <span>Precios</span></h1>
+      <p>Soluciones flexibles de rastreo vehicular diseñadas para cada necesidad, desde un solo auto hasta grandes
+        flotillas.</p>
+    </div>
+  </section>
+
+  <!-- BILLING TOGGLE -->
+  <div class="billing-toggle-wrap">
+    <div class="billing-toggle">
+      <button class="toggle-btn active" id="toggle-mensual">Mensual</button>
+      <button class="toggle-btn" id="toggle-anual">Anual</button>
+
+    </div>
+  </div>
+
+  <!-- PLANES -->
+  <section class="planes-section">
+
+    <div class="plans-label reveal">Nuestras Opciones</div>
+    <h2 class="plans-title reveal reveal-delay-1">Elige el plan ideal para ti</h2>
+    <p class="plans-subtitle reveal reveal-delay-2">Todos los planes incluyen instalación profesional y soporte técnico
+    </p>
+
+    <!-- ── MENSUAL ── -->
+    <div id="panel-mensual">
+      <div class="plan-type-label reveal">Plan Mensual Básico</div>
+      <div class="plans-grid">
+
+        <!-- CARD: Mensual Básico -->
+        <div class="plan-card reveal reveal-delay-1">
+          <div class="plan-header basic">
+            <div class="plan-icon">📡</div>
+            <div class="plan-name">Básico Mensual</div>
+            <div class="plan-desc">Rastreo GPS mensual sin compromiso</div>
+          </div>
+          <div class="plan-price-block">
+            <div class="price-label">Equipo</div>
+            <div class="price-tag">
+              <span class="price-tag-label">Dispositivo 3G</span>
+              <span class="price-amount"></span>
+            </div>
+            <div class="platform-row">
+              <span class="p-label">Plataforma</span>
+              <span class="p-val">FULLTRACK o GURTAM</span>
+            </div>
+          </div>
+          <div class="plan-features">
+            <div class="plan-features-title">Incluye</div>
+            <ul>
+              <li>Equipo GPS 3G profesional</li>
+              <li>SIM M2M multicarrier</li>
+              <li>Instalación</li>
+              <li>APP para dispositivo celular</li>
+              <li>Rastreo en tiempo real</li>
+              <li>Historial de recorridos</li>
+            </ul>
+          </div>
+          <a href="contec3.html#contacto" class="plan-cta secondary">Solicitar información</a>
+        </div>
+
+        <!-- CARD: Por qué mensual -->
+        <div class="plan-card reveal reveal-delay-2"
+          style="background: linear-gradient(160deg, var(--navy), var(--dark)); border-color: rgba(0,240,200,0.15);">
+          <div style="padding: 2.2rem 2rem; display:flex; flex-direction:column; height:100%;">
+            <div
+              style="font-family:'Syne',sans-serif; font-size:0.72rem; font-weight:700; letter-spacing:0.2em; text-transform:uppercase; color:var(--accent); margin-bottom:1.2rem;">
+              ¿Por qué mensual?</div>
+            <h3
+              style="font-family:'Syne',sans-serif; font-size:1.4rem; font-weight:800; color:var(--white); margin-bottom:1rem; line-height:1.2;">
+              Flexibilidad sin ataduras</h3>
+            <p style="font-size:0.9rem; color:rgba(255,255,255,0.6); line-height:1.8; margin-bottom:1.8rem;">Ideal para
+              quienes desean probar el servicio o tienen necesidades variables de flotilla. Sin contrato anual.</p>
+            <div style="display:flex; flex-direction:column; gap:1rem; flex:1;">
+              <div
+                style="display:flex; align-items:center; gap:1rem; background:rgba(255,255,255,0.05); border-radius:12px; padding:1rem;">
+                <span style="font-size:1.5rem;">🔓</span>
+                <div>
+                  <div
+                    style="font-family:'Syne',sans-serif; font-size:0.82rem; font-weight:700; color:var(--white); margin-bottom:0.2rem;">
+                    Sin contrato</div>
+                  <div style="font-size:0.8rem; color:rgba(255,255,255,0.5);">Cancela cuando quieras</div>
+                </div>
+              </div>
+              <div
+                style="display:flex; align-items:center; gap:1rem; background:rgba(255,255,255,0.05); border-radius:12px; padding:1rem;">
+                <span style="font-size:1.5rem;">⚡</span>
+                <div>
+                  <div
+                    style="font-family:'Syne',sans-serif; font-size:0.82rem; font-weight:700; color:var(--white); margin-bottom:0.2rem;">
+                    Activación inmediata</div>
+                  <div style="font-size:0.8rem; color:rgba(255,255,255,0.5);">En menos de 24 hrs</div>
+                </div>
+              </div>
+              <div
+                style="display:flex; align-items:center; gap:1rem; background:rgba(255,255,255,0.05); border-radius:12px; padding:1rem;">
+                <span style="font-size:1.5rem;">📱</span>
+                <div>
+                  <div
+                    style="font-family:'Syne',sans-serif; font-size:0.82rem; font-weight:700; color:var(--white); margin-bottom:0.2rem;">
+                    App incluida</div>
+                  <div style="font-size:0.8rem; color:rgba(255,255,255,0.5);">iOS y Android</div>
+                </div>
+              </div>
+            </div>
+            <a href="contec3.html#contacto" class="plan-cta primary" style="margin: 1.8rem 0 0;">Cotizar ahora</a>
+          </div>
+        </div>
+
+      </div><!-- end mensual grid -->
+    </div>
+
+    <!-- ── ANUAL ── -->
+    <div id="panel-anual" style="display:none;">
+      <div class="plan-type-label reveal">Planes Anuales Básico</div>
+      <div class="plans-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+
+        <!-- PLAN 12 MESES -->
+        <div class="plan-card reveal reveal-delay-1">
+          <div class="plan-header annual">
+            <div class="plan-icon">🗓️</div>
+            <div class="plan-name">Plan 12 Meses</div>
+            <div class="plan-desc">Rastreo GPS con compromiso anual</div>
+          </div>
+          <div class="plan-price-block">
+            <div class="price-tag">
+              <span class="price-tag-label">Plan 12 Meses</span>
+            </div>
+          </div>
+          <div class="plan-features">
+            <div class="plan-features-title">Incluye</div>
+            <ul>
+              <li>Equipo GPS 3G incluido</li>
+              <li>Instalación</li>
+              <li>APP para dispositivo celular</li>
+              <li>Monitoreo pasivo</li>
+              <li>Rastreo en tiempo real</li>
+              <li>Plataforma FULLTRACK o GURTAM</li>
+            </ul>
+          </div>
+          <a href="contec3.html#contacto" class="plan-cta secondary">Solicitar plan</a>
+        </div>
+
+        <!-- PLAN 24 MESES -->
+        <div class="plan-card featured reveal reveal-delay-2">
+          <div class="plan-featured-badge">⭐ Más popular</div>
+          <div class="plan-header annual" style="background: linear-gradient(135deg, #071840, #0d3070);">
+            <div class="plan-icon">🚀</div>
+            <div class="plan-name">Plan 24 Meses</div>
+            <div class="plan-desc">Mejor precio con mayor permanencia</div>
+          </div>
+          <div class="plan-price-block">
+            <div class="price-label">Precio del equipo a 24 meses</div>
+            <div class="price-tag" style="background:rgba(0,240,200,0.1); border-color:rgba(0,240,200,0.35);">
+              <span class="price-tag-label">Plan 24 Meses</span>
+            </div>
+          </div>
+          <div class="plan-features">
+            <div class="plan-features-title">Todo el plan 12 meses, más</div>
+            <ul>
+              <li>Equipo GPS 3G incluido</li>
+              <li>Instalación</li>
+              <li>APP para dispositivo celular</li>
+              <li>Monitoreo pasivo</li>
+              <li>Precio de promoción exclusivo</li>
+              <li>Soporte técnico prioritario</li>
+            </ul>
+          </div>
+          <a href="contec3.html#contacto" class="plan-cta primary">Obtener este plan</a>
+        </div>
+
+        <!-- TARJETA INFO ANUAL -->
+        <div class="plan-card reveal reveal-delay-3"
+          style="background: linear-gradient(160deg, var(--navy), var(--dark)); border-color: rgba(0,240,200,0.15);">
+          <div style="padding: 2rem; display:flex; flex-direction:column; height:100%;">
+            <div
+              style="font-family:'Syne',sans-serif; font-size:0.72rem; font-weight:700; letter-spacing:0.2em; text-transform:uppercase; color:var(--accent); margin-bottom:1.2rem;">
+              Ventaja anual</div>
+            <h3
+              style="font-family:'Syne',sans-serif; font-size:1.3rem; font-weight:800; color:var(--white); margin-bottom:1rem; line-height:1.2;">
+              Protección continua</h3>
+            <p style="font-size:0.88rem; color:rgba(255,255,255,0.6); line-height:1.8; margin-bottom:1.5rem; flex:1;">
+              Con los planes anuales tienes protección sin interrupciones durante todo el periodo contratado, sin
+              preocuparte por renovaciones mensuales.</p>
+            <div
+              style="background:rgba(0,240,200,0.08); border:1px solid rgba(0,240,200,0.2); border-radius:12px; padding:1.2rem; text-align:center;">
+              <div
+                style="font-size:0.75rem; color:rgba(255,255,255,0.5); text-transform:uppercase; letter-spacing:0.1em; margin-bottom:0.4rem;">
+                Mayor plazo</div>
+              <div style="font-family:'Syne',sans-serif; font-size:2rem; font-weight:800; color:var(--accent);">24</div>
+              <div style="font-size:0.8rem; color:rgba(255,255,255,0.5);">meses de protección continua</div>
+            </div>
+            <a href="contec3.html#contacto" class="plan-cta primary" style="margin: 1.5rem 0 0;">Quiero este plan</a>
+          </div>
+        </div>
+
+      </div><!-- end anual grid -->
+    </div>
+
+  </section>
+
+  <!-- COMPARACIÓN -->
+  <section class="comparacion">
+    <div class="section-label reveal">Comparativo</div>
+    <h2 class="reveal reveal-delay-1">¿Cuál plan te conviene?</h2>
+    <p class="reveal reveal-delay-2">Una comparativa clara para que tomes la mejor decisión</p>
+
+    <div class="table-wrap reveal reveal-delay-2">
+      <table class="comp-table">
+        <thead>
+          <tr>
+            <th>Característica</th>
+            <th>Mensual Básico</th>
+            <th class="highlight">Anual 12 Meses</th>
+            <th class="highlight">Anual 24 Meses</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Equipo GPS 3G</td>
+            <td><span class="check">✓</span></td>
+            <td class="highlight"><span class="check">✓</span></td>
+            <td class="highlight"><span class="check">✓</span></td>
+          </tr>
+          <tr>
+            <td>Instalación sin costo</td>
+            <td><span class="check">✓</span></td>
+            <td class="highlight"><span class="check">✓</span></td>
+            <td class="highlight"><span class="check">✓</span></td>
+          </tr>
+          <tr>
+            <td>SIM M2M multicarrier</td>
+            <td><span class="check">✓</span></td>
+            <td class="highlight"><span class="dash">—</span></td>
+            <td class="highlight"><span class="dash">—</span></td>
+          </tr>
+          <tr>
+            <td>APP móvil (iOS / Android)</td>
+            <td><span class="check">✓</span></td>
+            <td class="highlight"><span class="check">✓</span></td>
+            <td class="highlight"><span class="check">✓</span></td>
+          </tr>
+          <tr>
+            <td>Monitoreo pasivo</td>
+            <td><span class="dash">—</span></td>
+            <td class="highlight"><span class="check">✓</span></td>
+            <td class="highlight"><span class="check">✓</span></td>
+          </tr>
+          <tr>
+            <td>Precio promocional</td>
+            <td><span class="dash">—</span></td>
+            <td class="highlight"><span class="dash">—</span></td>
+            <td class="highlight"><span class="check">✓</span></td>
+          </tr>
+          <tr>
+            <td>Plataforma FULLTRACK / GURTAM</td>
+            <td><span class="check">✓</span></td>
+            <td class="highlight"><span class="check">✓</span></td>
+            <td class="highlight"><span class="check">✓</span></td>
+          </tr>
+          <tr>
+            <td>Contrato mínimo</td>
+            <td>Mensual</td>
+            <td class="highlight">12 meses</td>
+            <td class="highlight">24 meses</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <div class="section-label reveal">Preguntas Frecuentes</div>
+    <h2 style="font-family:'Syne',sans-serif;font-size:clamp(1.8rem,3vw,2.5rem);font-weight:800;margin-bottom:0.5rem;"
+      class="reveal reveal-delay-1">Resolvemos tus dudas</h2>
+
+    <div class="faq-grid reveal reveal-delay-2">
+
+      <div class="faq-item">
+        <div class="faq-q">¿El equipo GPS es mío al terminar el contrato? <span class="faq-icon">+</span></div>
+        <div class="faq-a">Sí, el equipo queda en propiedad del cliente una vez cubierto el plan contratado. Puedes
+          continuar usándolo con cualquiera de nuestros planes de plataforma.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">¿Cuánto tiempo tarda la instalación? <span class="faq-icon">+</span></div>
+        <div class="faq-a">La instalación profesional se realiza en un promedio de 1 a 2 horas por vehículo, sin costo
+          adicional. Coordinamos fecha y hora a tu conveniencia.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">¿Qué cobertura tiene la SIM M2M? <span class="faq-icon">+</span></div>
+        <div class="faq-a">La SIM M2M es multicarrier con cobertura nacional a través de Telcel, Telefónica y AT&T, y
+          también tiene cobertura internacional según el plan.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">¿Puedo ver mi vehículo desde el celular? <span class="faq-icon">+</span></div>
+        <div class="faq-a">Sí, todos los planes incluyen acceso a la APP móvil compatible con iOS y Android, con la que
+          puedes rastrear tu unidad desde cualquier lugar.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">¿Qué pasa si mi vehículo sale del país? <span class="faq-icon">+</span></div>
+        <div class="faq-a">La SIM M2M del plan mensual tiene roaming internacional. Para los planes anuales, consulta
+          con nuestro equipo para activar cobertura internacional.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">¿Puedo cambiar de plan después? <span class="faq-icon">+</span></div>
+        <div class="faq-a">Claro, una vez terminado tu periodo contratado puedes migrar a cualquier otro plan.
+          Contáctanos para revisar la mejor opción según tus necesidades actuales.</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cta-final">
+    <h2 class="reveal">¿Listo para proteger <span>tu flotilla</span>?</h2>
+    <p class="reveal reveal-delay-1">Contáctanos hoy y recibe una propuesta personalizada sin costo. Nuestro equipo
+      responde en menos de 24 horas.</p>
+    <div class="cta-btns reveal reveal-delay-2">
+      <a href="tel:5534508786" class="btn-primary">📞 Llamar ahora</a>
+      <a href="contec3.html#contacto" class="btn-outline">Enviar mensaje</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 <span>CONTEC</span> — Consultores en Tecnologías · Todos los derechos reservados
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button id="back-top" aria-label="Volver arriba">
+    <svg viewBox="0 0 24 24">
+      <path d="M12 4l-8 8h5v8h6v-8h5z" />
+    </svg>
+  </button>
+
+  <script src="script_plenes.js"></script>
+</body>
+
+</html>
